@@ -27,7 +27,7 @@
     <string name="question_five">Question 5. Which of the following were used as hiding places for the Lost Diadem of Ravenclaw?</string>
     <string name="question_five_a">A hollow tree</string>
     <string name="question_five_b">The room of requirement</string>
-    <string name="question_five_c">Dumbledore's office</string>
+    <string name="question_five_c">Dumbledore\'s office</string>
     <string name="question_five_d">All of the above</string>
 
     <string name="question_six">Question 6. How many horcurxes did Harry Potter actually manage to destroy? (Not counting himself)  </string>
