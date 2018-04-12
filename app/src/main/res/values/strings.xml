@@ -4,12 +4,38 @@
 
 
     <!--Question Titles-->
-    <string name="question_one">Question 1: </string>
-    <string name="question_two">Question 2: </string>
-    <string name="question_three">Question 3: </string>
-    <string name="question_four">Question 4: </string>
-    <string name="question_five">Question 5: </string>
-    <string name="question_six">Question 6: </string>
-    <string name="question_seven">Question 7: </string>
+    <string name="question_one">Question 1. True or False: Lucius Malfoy was aware that Tom Riddle\'s diary was a horcurx. </string>
+
+    <string name="question_two">Question 2. How did Dumbledore destroy Marvolo Gaunt\'s Ring? </string>
+    <string name="question_two_a">Fawkes the Phoenix</string>
+    <string name="question_two_b">A basalisk fang</string>
+    <string name="question_two_c">Godric Gryffindor\'s sword</string>
+    <string name="question_two_d">Putting in on and hoping for the best</string>
+
+    <string name="question_three">Question 3. From whom did Tom Riddle aquire Salazar Slytherin\'s locket? </string>
+    <string name="question_three_a">Regulus Black</string>
+    <string name="question_three_b">Hepzibah Smith</string>
+    <string name="question_three_c">His Father</string>
+    <string name="question_three_d">Hagrid</string>
+
+    <string name="question_four">Question 4. Who was the person in possession of Helga Hufflepuff\'s cup before Tom Riddle?</string>
+    <string name="question_four_a">Hepzibah Smith</string>
+    <string name="question_four_b">Helga Hufflepuff</string>
+    <string name="question_four_c">Horace Slughorn</string>
+    <string name="question_four_d">Lucius Malfoy</string>
+
+    <string name="question_five">Question 5. Which of the following were used as hiding places for the Lost Diadem of Ravenclaw?</string>
+    <string name="question_five_a">A hollow tree</string>
+    <string name="question_five_b">The room of requirement</string>
+    <string name="question_five_c">Dumbledore's office</string>
+    <string name="question_five_d">All of the above</string>
+
+    <string name="question_six">Question 6. How many horcurxes did Harry Potter actually manage to destroy? (Not counting himself)  </string>
+
+    <string name="question_seven">Question 7. Who destroyed the final horcrux, Nagini?</string>
+    <string name="question_seven_a">This quiz was too easy</string>
+    <string name="question_seven_b">Harry Potter for once</string>
+    <string name="question_seven_c">Probably Hermione</string>
+    <string name="question_seven_d">Neville Longbottom</string>
 
 </resources>
