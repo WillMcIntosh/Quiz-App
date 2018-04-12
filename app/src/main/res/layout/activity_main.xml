@@ -31,8 +31,7 @@
             android:layout_marginTop="24dp"
             android:text="@string/question_one"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-            android:fontFamily="cursive"/>
+            android:textSize="24sp"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -40,8 +39,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:textSize="24sp"
-            android:orientation="horizontal"
-            android:fontFamily="cursive">
+            android:orientation="horizontal">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -68,8 +66,7 @@
             android:layout_marginTop="24dp"
             android:text="@string/question_two"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-            android:fontFamily="cursive"/>
+            android:textSize="24sp"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -77,8 +74,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:textSize="24sp"
-            android:orientation="vertical"
-            android:fontFamily="cursive">
+            android:orientation="vertical">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -120,8 +116,7 @@
             android:layout_marginTop="24dp"
             android:text="@string/question_three"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-            android:fontFamily="cursive"/>
+            android:textSize="24sp"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -129,8 +124,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:textSize="24sp"
-            android:orientation="vertical"
-            android:fontFamily="cursive">
+            android:orientation="vertical">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -172,8 +166,7 @@
             android:layout_marginTop="24dp"
             android:text="@string/question_four"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-            android:fontFamily="cursive"/>
+            android:textSize="24sp"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -181,8 +174,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:textSize="24sp"
-            android:orientation="vertical"
-            android:fontFamily="cursive">
+            android:orientation="vertical">
             <RadioButton
                 android:id="@+id/question_four_a"
                 android:layout_width="wrap_content"
@@ -224,8 +216,7 @@
             android:layout_marginTop="24dp"
             android:text="@string/question_five"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-            android:fontFamily="cursive"/>
+            android:textSize="24sp"/>
 
 
         <LinearLayout
@@ -233,8 +224,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:fontFamily="cursive">
+            android:layout_marginTop="16dp">
 
             <CheckBox
                 android:id="@+id/question_five_a"
@@ -275,8 +265,7 @@
             android:layout_marginTop="24dp"
             android:text="@string/question_six"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-            android:fontFamily="cursive"/>
+            android:textSize="24sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -325,8 +314,7 @@
             android:layout_marginTop="24dp"
             android:text="@string/question_seven"
             android:textColor="@android:color/black"
-            android:textSize="24sp"
-            android:fontFamily="cursive"/>
+            android:textSize="24sp"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -334,8 +322,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:textSize="24sp"
-            android:orientation="vertical"
-            android:fontFamily="cursive">
+            android:orientation="vertical">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
