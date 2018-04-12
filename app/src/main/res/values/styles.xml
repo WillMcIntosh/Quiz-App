@@ -3,9 +3,31 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/CursiveTextViewStyle</item>
+        <item name="android:buttonStyle">@style/CursiveButtonStyle</item>
+        <item name="android:radioButtonStyle">@style/CursiveRadioStyle</item>
+        <item name="android:checkboxStyle">@style/CursiveCheckBoxStyle</item>
+        <item name="android:editTextStyle">@style/CursiveEditTextStyle</item>
+
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CursiveTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">cursive</item>
+    </style>
+    <style name="CursiveButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">cursive</item>
+    </style>
+    <style name="CursiveRadioStyle" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:fontFamily">cursive</item>
+    </style>
+    <style name="CursiveCheckBoxStyle" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:fontFamily">cursive</item>
+    </style>
+    <style name="CursiveEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">cursive</item>
     </style>
 
 </resources>
