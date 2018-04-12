@@ -129,5 +129,8 @@ public class MainActivity extends AppCompatActivity {
         String message = greeting + name + "!\nYou got " + score +
         " out of 7 correct.";
         scoreMessage.setText(message);
+
+        // reset score to zero
+        score = 0;
     }
 }
