@@ -25,41 +25,41 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void submit(View view) {
-        EditText nameEntry = (EditText) findViewById(R.id.name_entry);
+        EditText nameEntry = findViewById(R.id.name_entry);
         String userName = nameEntry.getText().toString();
 
 //        Question 1
-        RadioButton question1 = (RadioButton) findViewById(R.id.question_one_f);
+        RadioButton question1 = findViewById(R.id.question_one_f);
         boolean isOneChecked = question1.isChecked();
         if (isOneChecked) {
             score++;
         }
 //        Question 2
-        RadioButton question2 = (RadioButton) findViewById(R.id.question_two_c);
+        RadioButton question2 = findViewById(R.id.question_two_c);
         boolean isTwoChecked = question2.isChecked();
         if (isTwoChecked) {
             score ++;
         }
 //        Question 3
-        RadioButton question3 = (RadioButton) findViewById(R.id.question_three_b);
+        RadioButton question3 = findViewById(R.id.question_three_b);
         boolean isThreeChecked = question3.isChecked();
         if (isThreeChecked) {
             score ++;
         }
 //        Question 4
-        RadioButton question4 = (RadioButton) findViewById(R.id.question_four_a);
+        RadioButton question4 = findViewById(R.id.question_four_a);
         boolean isFourChecked = question4.isChecked();
         if (isFourChecked) {
             score ++;
         }
 //        Question 5
-        CheckBox question5A = (CheckBox) findViewById(R.id.question_five_a);
+        CheckBox question5A = findViewById(R.id.question_five_a);
         boolean isFiveA = question5A.isChecked();
-        CheckBox question5B = (CheckBox) findViewById(R.id.question_five_b);
+        CheckBox question5B = findViewById(R.id.question_five_b);
         boolean isFiveB = question5B.isChecked();
-        CheckBox question5C = (CheckBox) findViewById(R.id.question_five_c);
+        CheckBox question5C = findViewById(R.id.question_five_c);
         boolean isFiveC = question5C.isChecked();
-        CheckBox question5D = (CheckBox) findViewById(R.id.question_five_d);
+        CheckBox question5D = findViewById(R.id.question_five_d);
         boolean isFiveD = question5D.isChecked();
 
         if (isFiveA && isFiveB && !isFiveC && !isFiveD) {
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             score ++;
         }
 //        Question 7
-        RadioButton question7 = (RadioButton) findViewById(R.id.question_seven_d);
+        RadioButton question7 = findViewById(R.id.question_seven_d);
         boolean isSevenChecked = question7.isChecked();
         if (isSevenChecked) {
             score++;
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
      * @param number
      */
     private void displayHarryCount(int number) {
-        TextView quantityTextView = (TextView) findViewById(R.id.quantity_text_view);
+        TextView quantityTextView = findViewById(R.id.quantity_text_view);
         quantityTextView.setText("" + number);
     }
 
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
      * @param name
      */
     private void displayScore(String name) {
-        TextView scoreMessage = (TextView) findViewById(R.id.score_view);
+        TextView scoreMessage = findViewById(R.id.score_view);
         String greeting;
         if (score == 7) {
             greeting = "Congratulations, ";
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
             greeting = "Oh, no ";
         }
         String message = greeting + name + "!\nYou got " + score +
-        " out of 7 correct.";
+                " out of 7 correct.";
         scoreMessage.setText(message);
 
         // reset score to zero

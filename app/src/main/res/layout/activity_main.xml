@@ -17,8 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
             android:hint="@string/name"
             android:inputType="textCapWords"
             />
@@ -39,8 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:textSize="24sp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:textSize="24sp">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -74,8 +74,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:textSize="24sp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:textSize="24sp">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,8 +124,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:textSize="24sp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:textSize="24sp">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -174,8 +174,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:textSize="24sp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:textSize="24sp">
             <RadioButton
                 android:id="@+id/question_four_a"
                 android:layout_width="wrap_content"
@@ -223,9 +223,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp">
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
 
             <CheckBox
                 android:id="@+id/question_five_a"
@@ -276,9 +276,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_marginTop="16dp"
-            android:fontFamily="cursive">
+            android:fontFamily="cursive"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/button_minus"
@@ -328,8 +328,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
-            android:textSize="24sp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:textSize="24sp">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -378,18 +378,18 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_marginBottom="24dp"
             android:layout_marginTop="24dp"
-            android:layout_marginBottom="24dp">
+            android:gravity="center">
 
             <Button
                 android:id="@+id/submit_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAllCaps="true"
-                android:textSize="20sp"
+                android:onClick="submit"
                 android:text="Submit Answers"
-                android:onClick="submit"/>
+                android:textAllCaps="true"
+                android:textSize="20sp"/>
 
         </LinearLayout>
 
