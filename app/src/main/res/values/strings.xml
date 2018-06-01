@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Harry Potter Quiz</string>
-    <string name="name">Please Enter Your Name</string>
+    <string name="name">Please enter your name</string>
+    <string name="character">Please guess a character</string>
 
 
     <!--Question Titles-->

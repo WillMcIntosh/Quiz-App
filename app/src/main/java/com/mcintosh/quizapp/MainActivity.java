@@ -1,9 +1,12 @@
 package com.mcintosh.quizapp;
 
 import android.content.Context;
+import android.graphics.Rect;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -72,14 +75,20 @@ public class MainActivity extends AppCompatActivity {
             score ++;
         }
         // Question 7
-        RadioButton question7 = findViewById(R.id.rb_question_seven_d);
-        boolean isSevenChecked = question7.isChecked();
-        if (isSevenChecked) {
-            score++;
+        EditText question7 = findViewById(R.id.et_question_seven);
+        // change user input to lower case and trim leading or trailing spaces, remove punctuation
+        String sevenAnswer = question7.getText().toString().toLowerCase().trim().replaceAll("[^a-z]", "");
+
+        switch (sevenAnswer) {
+            case "neville longbottom":
+            case "neville":
+                score++;
+                break;
+            default:
+                break;
         }
 
         displayScore(userName);
-
     }
 
     /**
