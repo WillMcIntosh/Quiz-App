@@ -77,7 +77,8 @@ public class MainActivity extends AppCompatActivity {
         // Question 7
         EditText question7 = findViewById(R.id.et_question_seven);
         // change user input to lower case and trim leading or trailing spaces, remove punctuation
-        String sevenAnswer = question7.getText().toString().toLowerCase().trim().replaceAll("[^a-z]", "");
+        String sevenAnswer = question7.getText().toString()
+                .toLowerCase().trim().replaceAll("[^a-z]", "");
 
         switch (sevenAnswer) {
             case "nevillelongbottom":
