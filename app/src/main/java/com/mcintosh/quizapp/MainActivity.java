@@ -30,31 +30,31 @@ public class MainActivity extends AppCompatActivity {
         EditText nameEntry = findViewById(R.id.name_entry);
         String userName = nameEntry.getText().toString();
 
-//        Question 1
+        // Question 1
         RadioButton question1 = findViewById(R.id.question_one_f);
         boolean isOneChecked = question1.isChecked();
         if (isOneChecked) {
             score++;
         }
-//        Question 2
+        // Question 2
         RadioButton question2 = findViewById(R.id.question_two_c);
         boolean isTwoChecked = question2.isChecked();
         if (isTwoChecked) {
             score ++;
         }
-//        Question 3
+        // Question 3
         RadioButton question3 = findViewById(R.id.question_three_b);
         boolean isThreeChecked = question3.isChecked();
         if (isThreeChecked) {
             score ++;
         }
-//        Question 4
+        // Question 4
         RadioButton question4 = findViewById(R.id.question_four_a);
         boolean isFourChecked = question4.isChecked();
         if (isFourChecked) {
             score ++;
         }
-//        Question 5
+        // Question 5
         CheckBox question5A = findViewById(R.id.question_five_a);
         boolean isFiveA = question5A.isChecked();
         CheckBox question5B = findViewById(R.id.question_five_b);
@@ -67,11 +67,11 @@ public class MainActivity extends AppCompatActivity {
         if (isFiveA && isFiveB && !isFiveC && !isFiveD) {
             score++;
         }
-//        Question 6
+        // Question 6
         if (harryCounter == 1) {
             score ++;
         }
-//        Question 7
+        // Question 7
         RadioButton question7 = findViewById(R.id.question_seven_d);
         boolean isSevenChecked = question7.isChecked();
         if (isSevenChecked) {
