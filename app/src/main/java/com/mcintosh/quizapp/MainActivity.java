@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         String sevenAnswer = question7.getText().toString().toLowerCase().trim().replaceAll("[^a-z]", "");
 
         switch (sevenAnswer) {
-            case "neville longbottom":
+            case "nevillelongbottom":
             case "neville":
                 score++;
                 break;
