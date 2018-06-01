@@ -1,5 +1,6 @@
 package com.mcintosh.quizapp;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +8,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -112,8 +114,7 @@ public class MainActivity extends AppCompatActivity {
      * @param name
      */
     private void displayScore(String name) {
-        TextView scoreMessage = findViewById(R.id.score_view);
-        String greeting;
+                String greeting;
         if (score == 7) {
             greeting = "Congratulations, ";
         }
@@ -128,7 +129,13 @@ public class MainActivity extends AppCompatActivity {
         }
         String message = greeting + name + "!\nYou got " + score +
                 " out of 7 correct.";
-        scoreMessage.setText(message);
+        // Set up Toast for score message
+        Context context = getApplicationContext();
+        int duration = Toast.LENGTH_SHORT;
+        Toast scoreToast = Toast.makeText(context, message, duration);
+
+        // show score message as a Toast
+        scoreToast.show();
 
         // reset score to zero
         score = 0;
